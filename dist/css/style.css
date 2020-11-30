@@ -120,6 +120,10 @@
   margin: 0 0 1rem 0;
 }
 
+.project-details-column {
+  padding-left: 0.6rem;
+}
+
 /*----- Blog Page Styling ---*/
 .blog-description {
   margin: 0 0 1rem 0;
@@ -173,5 +177,9 @@
   .quote {
     font-size: 1rem;
     margin: 2rem 0;
+  }
+
+  .about-me-description {
+    font-size: 1.2rem;
   }
 }
