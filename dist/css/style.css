@@ -116,6 +116,7 @@
 .project-description {
   font-size: 1rem;
   line-height: 1.5;
+  height: 3rem;
   color: var(--secondary);
   margin: 0 0 1rem 0;
 }
@@ -143,16 +144,22 @@
 }
 
 .footer-text {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   line-height: 2;
   color: var(--off-white);
 }
 
 .social-icons {
-  font-size: 1.1rem;
-  padding: 0.8rem 0 0 0.7rem;
+  font-size: 1.4rem;
+  padding: 0.8rem .6rem 0 .6rem;
   color: var(--off-white);
+  opacity: .6;
 }
+
+.social-icons:hover {
+  opacity: 1;
+}
+
 
 /*Media Query For Responsive Website*/
 
